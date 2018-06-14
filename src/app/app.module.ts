@@ -10,6 +10,7 @@ import { AnimalsComponent } from './animals/animals.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AnimalDetailComponent } from './animal-detail/animal-detail.component';
 import { AngularFirestoreModule } from 'angularfire2/firestore';
+import { ErrorComponent } from './error/error.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AngularFirestoreModule } from 'angularfire2/firestore';
     HomeComponent,
     AnimalsComponent,
     NavbarComponent,
-    AnimalDetailComponent
+    AnimalDetailComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,

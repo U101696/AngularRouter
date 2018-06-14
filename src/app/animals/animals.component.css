@@ -1,0 +1,15 @@
+.Animal-list {
+    font-size: 20px;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 300ms;
+}
+
+.Animal-list:hover {
+    font-size: 30px;
+}
+
+.active{
+    font-weight: bold;
+    color: orangered;
+}
